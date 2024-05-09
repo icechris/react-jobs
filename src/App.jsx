@@ -2,7 +2,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HomeCards from './components/HomeCards'
-import JobListings from './components/JobListings';
+import JobListings from './components/jobListings';
 
 const App = () => {
   return (
