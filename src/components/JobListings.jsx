@@ -1,6 +1,6 @@
 import React from 'react'
 import jobs from '../jobs.json'
-import JobListing from './jobListing'
+import JobListing from './JobListing'
 
 
 const JobListings = () => {
@@ -24,4 +24,4 @@ const recentJobs = jobs.slice(0, 3)
   )
 }
 
-export default JobListings
+export default JobListings;
