@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import HomeCards from '../components/HomeCards';
 import JobListings from '../components/JobListings';
+import ViewButton from '../ViewButton';
 
 
 const homePage = () => {
@@ -10,6 +11,7 @@ const homePage = () => {
       <Hero />
       <HomeCards  />
       <JobListings  isHome = {true}/>
+      <ViewButton />
 
     </div>
   )
