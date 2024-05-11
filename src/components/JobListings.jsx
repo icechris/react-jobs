@@ -16,7 +16,7 @@ const recentJobs = jobs.slice(0, 3)
         
         {recentJobs.map((job)=>(
             <JobListing  key={job.id} job={job}/>
-        ))}
+       ))}
         
         </div>
       </div>
