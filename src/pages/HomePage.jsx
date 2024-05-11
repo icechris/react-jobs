@@ -8,8 +8,8 @@ const homePage = () => {
   return (
     <div>
       <Hero />
-      <HomeCards />
-      <JobListings />
+      <HomeCards  />
+      <JobListings  isHome = {true}/>
 
     </div>
   )
